@@ -39,7 +39,7 @@ create table customers
 (
     customer_id  int          not null AUTO_INCREMENT,
     name         varchar(100) not null,
-    phone_numver varchar(100) null,
+    phone_number varchar(100) null,
     address      varchar(100) not null,
     primary key (customer_id)
 );
